@@ -64,8 +64,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
   img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
     object-fit: contain;
-  }  
+  }
+
   .cart {
     background: white;
     border-radius: 8px;

@@ -46,3 +46,6 @@ img {
   display: block;
   object-fit: cover;
 }
+img {
+  object-fit: contain;
+}
